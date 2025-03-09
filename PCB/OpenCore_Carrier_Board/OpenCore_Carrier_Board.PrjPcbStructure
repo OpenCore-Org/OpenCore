@@ -1,0 +1,12 @@
+Record=TopLevelDocument|FileName=S01_Block_Diagram.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S02_Power_Converters.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S03_SOM1_A_B.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S04_SOM1_C_D.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S05_SOM2_A_B.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S06_SOM2_C_D.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S07_PCIe_Connector.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S08_DisplayPort.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S09_Connectors.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S10_Reset_Logic.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S11_LEDs.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=S01_Block_Diagram.SchDoc|FileName=S12_Clocks.SchDoc|SheetNumber=12

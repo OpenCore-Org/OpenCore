@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: OpenCore_Carrier_Board.PcbDoc   2025-01-30  11:42:31 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : TOP to BOT
+ASCII RoundHoles File : OpenCore_Carrier_Board.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             1165      PTH        3678.10mm (144.81inch)
+T2      0.95mm (37mil)                                            Round             4         PTH        173.51mm (6.83inch)
+T3      1.15mm (45mil)                                            Round             10        PTH        349.76mm (13.77inch)
+T4      1.25mm (49mil)                                            Round             2         PTH        16.50mm (0.65inch)
+T5      1.71mm (67mil)                                            Round             2         PTH        16.50mm (0.65inch)
+T6      1.85mm (73mil)                                            Round             9         PTH        42.07mm (1.66inch)
+T7      3.2mm (126mil)                                            Round             4         PTH        194.95mm (7.68inch)
+T8      1.4mm (55mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+T9      3.05mm (120mil)                                           Round             2         NPTH       8.40mm (0.33inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1199
+
+Total Processing Time (hh:mm:ss) : 00:00:00
