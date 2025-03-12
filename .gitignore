@@ -1,0 +1,28 @@
+
+# RTL GitIgnore Files 
+OpenCoreRTL/vivado/OpenCore.cache/
+OpenCoreRTL/vivado/OpenCore.hw/
+# OpenCoreRTL/vivado/OpenCore.ip_user_files/
+OpenCoreRTL/vivado/OpenCore.sim/
+# OpenCoreRTL/vivado/OpenCore.gen/
+OpenCoreRTL/vivado/OpenCore.runs/
+# OpenCoreRTL/vivado/OpenCore.srcs/
+OpenCoreRTL/vivado/Donut*
+
+
+# VSCode related files
+.vscode
+
+# Generated directories containing verilator simulation files
+**/obj_dir
+**/.stamp.verilate
+**/waveform.vcd
+
+# scripts
+OpenCoreRTL/scripts/encoder/encoder
+OpenCoreRTL/scripts/gemm_program/gemm_program
+OpenCoreRTL/scripts/gemm_program/gemm_program.bin
+OpenCoreRTL/scripts/gemm_program/gemm_program.txt
+OpenCoreRTL/scripts/test_program/test_program
+OpenCoreRTL/scripts/test_program/test_program.bin
+OpenCoreRTL/scripts/test_program/test_program.txt

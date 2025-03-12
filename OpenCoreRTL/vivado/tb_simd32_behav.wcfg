@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_simd32_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="arithmetic_pkg" />
+            <top_module name="common_pkg" />
+            <top_module name="ds_op_pkg" />
+            <top_module name="ex_pkg" />
+            <top_module name="flat_op_pkg" />
+            <top_module name="glbl" />
+            <top_module name="mem_pkg" />
+            <top_module name="scalar_op_pkg" />
+            <top_module name="tb_simd32" />
+            <top_module name="vector_op_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="308.580 ns"></ZoomStartTime>
+      <ZoomEndTime time="381.381 ns"></ZoomEndTime>
+      <Cursor1Time time="322.780 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="330"></NameColumnWidth>
+      <ValueColumnWidth column_width="117"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="101" />
+   <wave_markers>
+      <marker time="269906" label="" />
+      <marker time="230000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_simd32/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider9">
+      <obj_property name="label">simd32_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/decoder_stall" type="logic">
+      <obj_property name="ElementShortName">decoder_stall</obj_property>
+      <obj_property name="ObjectShortName">decoder_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider11">
+      <obj_property name="label">Decoder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_decode/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_decode/scalar_inst_out" type="array">
+      <obj_property name="ElementShortName">scalar_inst_out</obj_property>
+      <obj_property name="ObjectShortName">scalar_inst_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_decode/vector_inst_out" type="array">
+      <obj_property name="ElementShortName">vector_inst_out</obj_property>
+      <obj_property name="ObjectShortName">vector_inst_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_decode/vector_decode/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_decode/vector_decode/r_curr_state" type="array">
+      <obj_property name="ElementShortName">r_curr_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_curr_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_decode/dec_ex1_all_flags" type="array">
+      <obj_property name="ElementShortName">dec_ex1_all_flags[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_ex1_all_flags[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_decode/dec_ex1_valid" type="logic">
+      <obj_property name="ElementShortName">dec_ex1_valid</obj_property>
+      <obj_property name="ObjectShortName">dec_ex1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_decode/ex1_dec_ready" type="logic">
+      <obj_property name="ElementShortName">ex1_dec_ready</obj_property>
+      <obj_property name="ObjectShortName">ex1_dec_ready</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider18">
+      <obj_property name="label">ex1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/scalar_inst_in" type="array">
+      <obj_property name="ElementShortName">scalar_inst_in</obj_property>
+      <obj_property name="ObjectShortName">scalar_inst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/vector_inst_in" type="array">
+      <obj_property name="ElementShortName">vector_inst_in</obj_property>
+      <obj_property name="ObjectShortName">vector_inst_in</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/dec_ex1_valid" type="logic">
+      <obj_property name="ElementShortName">dec_ex1_valid</obj_property>
+      <obj_property name="ObjectShortName">dec_ex1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/ex1_dec_ready" type="logic">
+      <obj_property name="ElementShortName">ex1_dec_ready</obj_property>
+      <obj_property name="ObjectShortName">ex1_dec_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/next_ex1_state" type="other">
+      <obj_property name="ElementShortName">next_ex1_state</obj_property>
+      <obj_property name="ObjectShortName">next_ex1_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/curr_ex1_state" type="other">
+      <obj_property name="ElementShortName">curr_ex1_state</obj_property>
+      <obj_property name="ObjectShortName">curr_ex1_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/next_ex1_ex2_valid" type="logic">
+      <obj_property name="ElementShortName">next_ex1_ex2_valid</obj_property>
+      <obj_property name="ObjectShortName">next_ex1_ex2_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/vgpr_renable" type="array">
+      <obj_property name="ElementShortName">vgpr_renable[31:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgpr_renable[31:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/vgpr_rdone" type="logic">
+      <obj_property name="ElementShortName">vgpr_rdone</obj_property>
+      <obj_property name="ObjectShortName">vgpr_rdone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/sgpr_raddr" type="array">
+      <obj_property name="ElementShortName">sgpr_raddr[1:0][6:0]</obj_property>
+      <obj_property name="ObjectShortName">sgpr_raddr[1:0][6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/sgpr_rdata_lo" type="array">
+      <obj_property name="ElementShortName">sgpr_rdata_lo[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sgpr_rdata_lo[1:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/r_ssrc_out" type="array">
+      <obj_property name="ElementShortName">r_ssrc_out[3:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_ssrc_out[3:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/r_vsrc_out" type="array">
+      <obj_property name="ElementShortName">r_vsrc_out[31:0][7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_vsrc_out[31:0][7:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/ex2_ex1_ready" type="logic">
+      <obj_property name="ElementShortName">ex2_ex1_ready</obj_property>
+      <obj_property name="ObjectShortName">ex2_ex1_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex1/ex1_ex2_valid" type="logic">
+      <obj_property name="ElementShortName">ex1_ex2_valid</obj_property>
+      <obj_property name="ObjectShortName">ex1_ex2_valid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider29">
+      <obj_property name="label">ex2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/vector_inst_in" type="array">
+      <obj_property name="ElementShortName">vector_inst_in</obj_property>
+      <obj_property name="ObjectShortName">vector_inst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/scalar_inst_in" type="array">
+      <obj_property name="ElementShortName">scalar_inst_in</obj_property>
+      <obj_property name="ObjectShortName">scalar_inst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ex1_ready" type="logic">
+      <obj_property name="ElementShortName">ex2_ex1_ready</obj_property>
+      <obj_property name="ObjectShortName">ex2_ex1_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex1_ex2_valid" type="logic">
+      <obj_property name="ElementShortName">ex1_ex2_valid</obj_property>
+      <obj_property name="ObjectShortName">ex1_ex2_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ls_ex2_ready" type="logic">
+      <obj_property name="ElementShortName">ls_ex2_ready</obj_property>
+      <obj_property name="ObjectShortName">ls_ex2_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_valid" type="logic">
+      <obj_property name="ElementShortName">ex2_ls_valid</obj_property>
+      <obj_property name="ObjectShortName">ex2_ls_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/r_s_dest_reg" type="array">
+      <obj_property name="ElementShortName">r_s_dest_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">r_s_dest_reg[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/r_v_dest_reg" type="array">
+      <obj_property name="ElementShortName">r_v_dest_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_v_dest_reg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_reg" type="array">
+      <obj_property name="ElementShortName">ex2_ls_s_dest_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ex2_ls_s_dest_reg[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val" type="array">
+      <obj_property name="ElementShortName">ex2_ls_s_dest_val[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ex2_ls_s_dest_val[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus333" type="vbus">
+      <obj_property name="label">ex2_ls_s_des_val[31:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_val[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_strb" type="array">
+      <obj_property name="ElementShortName">ex2_ls_s_dest_strb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ex2_ls_s_dest_strb[1:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_s_dest_we" type="logic">
+      <obj_property name="ElementShortName">ex2_ls_s_dest_we</obj_property>
+      <obj_property name="ObjectShortName">ex2_ls_s_dest_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_v_dest_reg" type="array">
+      <obj_property name="ElementShortName">ex2_ls_v_dest_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ex2_ls_v_dest_reg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_v_dest_val" type="array">
+      <obj_property name="ElementShortName">ex2_ls_v_dest_val[31:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">ex2_ls_v_dest_val[31:0][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_v_dest_strb" type="array">
+      <obj_property name="ElementShortName">ex2_ls_v_dest_strb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ex2_ls_v_dest_strb[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/ex2_ls_v_dest_we" type="array">
+      <obj_property name="ElementShortName">ex2_ls_v_dest_we[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex2_ls_v_dest_we[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /ssrc0" type="array">
+      <obj_property name="ElementShortName">ssrc0[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ssrc0[1:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /ssrc1" type="array">
+      <obj_property name="ElementShortName">ssrc1[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ssrc1[1:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /ssrc2" type="array">
+      <obj_property name="ElementShortName">ssrc2[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ssrc2[1:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /vsrc" type="array">
+      <obj_property name="ElementShortName">vsrc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vsrc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /dst_data" type="array">
+      <obj_property name="ElementShortName">dst_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /vcc_in" type="logic">
+      <obj_property name="ElementShortName">vcc_in</obj_property>
+      <obj_property name="ObjectShortName">vcc_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /vcc_out" type="logic">
+      <obj_property name="ElementShortName">vcc_out</obj_property>
+      <obj_property name="ObjectShortName">vcc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /vcc_we" type="logic">
+      <obj_property name="ElementShortName">vcc_we</obj_property>
+      <obj_property name="ObjectShortName">vcc_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /add_sub_in_a" type="array">
+      <obj_property name="ElementShortName">add_sub_in_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">add_sub_in_a[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /add_sub_in_b" type="array">
+      <obj_property name="ElementShortName">add_sub_in_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">add_sub_in_b[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /r_add_sub_out" type="array">
+      <obj_property name="ElementShortName">r_add_sub_out[32:0]</obj_property>
+      <obj_property name="ObjectShortName">r_add_sub_out[32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /vdest_out" type="array">
+      <obj_property name="ElementShortName">vdest_out[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">vdest_out[1:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /vdest_wb" type="logic">
+      <obj_property name="ElementShortName">vdest_wb</obj_property>
+      <obj_property name="ObjectShortName">vdest_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /sdest_out" type="array">
+      <obj_property name="ElementShortName">sdest_out[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sdest_out[1:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /sdest_wb" type="logic">
+      <obj_property name="ElementShortName">sdest_wb</obj_property>
+      <obj_property name="ObjectShortName">sdest_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /out_valid" type="logic">
+      <obj_property name="ElementShortName">out_valid</obj_property>
+      <obj_property name="ObjectShortName">out_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /out_ready" type="logic">
+      <obj_property name="ElementShortName">out_ready</obj_property>
+      <obj_property name="ObjectShortName">out_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /next_busy" type="logic">
+      <obj_property name="ElementShortName">next_busy</obj_property>
+      <obj_property name="ObjectShortName">next_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /r_curr_state" type="array">
+      <obj_property name="ElementShortName">r_curr_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_curr_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/\gen_VCORES[0].vec_core /next_state" type="array">
+      <obj_property name="ElementShortName">next_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider399">
+      <obj_property name="label">ls</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ls/ls_ex2_ready" type="logic">
+      <obj_property name="ElementShortName">ls_ex2_ready</obj_property>
+      <obj_property name="ObjectShortName">ls_ex2_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ls/ex2_ls_valid" type="logic">
+      <obj_property name="ElementShortName">ex2_ls_valid</obj_property>
+      <obj_property name="ObjectShortName">ex2_ls_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ls/ls_wb_s_dest_reg" type="array">
+      <obj_property name="ElementShortName">ls_wb_s_dest_reg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_wb_s_dest_reg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ls/ls_wb_s_dest_val" type="array">
+      <obj_property name="ElementShortName">ls_wb_s_dest_val[63:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_wb_s_dest_val[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ls/ls_wb_s_dest_strb" type="array">
+      <obj_property name="ElementShortName">ls_wb_s_dest_strb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_wb_s_dest_strb[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ls/ls_wb_s_dest_we" type="logic">
+      <obj_property name="ElementShortName">ls_wb_s_dest_we</obj_property>
+      <obj_property name="ObjectShortName">ls_wb_s_dest_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ls/ls_wb_v_dest_reg" type="array">
+      <obj_property name="ElementShortName">ls_wb_v_dest_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_wb_v_dest_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ls/ls_wb_v_dest_val" type="array">
+      <obj_property name="ElementShortName">ls_wb_v_dest_val[31:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_wb_v_dest_val[31:0][63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ls/ls_wb_v_dest_we" type="array">
+      <obj_property name="ElementShortName">ls_wb_v_dest_we[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_wb_v_dest_we[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ls/ls_wb_v_dest_strb" type="array">
+      <obj_property name="ElementShortName">ls_wb_v_dest_strb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ls_wb_v_dest_strb[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider408">
+      <obj_property name="label">sgpr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_reg_sgpr/rd_bank_sel" type="array">
+      <obj_property name="ElementShortName">rd_bank_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_bank_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_reg_sgpr/raddr" type="array">
+      <obj_property name="ElementShortName">raddr[1:0][6:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[1:0][6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_reg_sgpr/rdata_hi" type="array">
+      <obj_property name="ElementShortName">rdata_hi[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_hi[1:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_reg_sgpr/rdata_lo" type="array">
+      <obj_property name="ElementShortName">rdata_lo[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_lo[1:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_reg_sgpr/wr_bank_sel" type="array">
+      <obj_property name="ElementShortName">wr_bank_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_bank_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_reg_sgpr/waddr" type="array">
+      <obj_property name="ElementShortName">waddr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_reg_sgpr/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_reg_sgpr/wstrb" type="array">
+      <obj_property name="ElementShortName">wstrb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wstrb[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_reg_sgpr/wenable" type="logic">
+      <obj_property name="ElementShortName">wenable</obj_property>
+      <obj_property name="ObjectShortName">wenable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_reg_sgpr/r_reg_mem" type="array">
+      <obj_property name="ElementShortName">r_reg_mem[3:0][63:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">r_reg_mem[3:0][63:0][63:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider452">
+      <obj_property name="label">vgpr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/\gen_vgpr_blk[0].u_reg_vgpr /raddr" type="array">
+      <obj_property name="ElementShortName">raddr[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[3:0][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/\gen_vgpr_blk[0].u_reg_vgpr /rdata_hi" type="array">
+      <obj_property name="ElementShortName">rdata_hi[3:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_hi[3:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/\gen_vgpr_blk[0].u_reg_vgpr /rdata_lo" type="array">
+      <obj_property name="ElementShortName">rdata_lo[3:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_lo[3:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/\gen_vgpr_blk[0].u_reg_vgpr /waddr" type="array">
+      <obj_property name="ElementShortName">waddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/\gen_vgpr_blk[0].u_reg_vgpr /wdata" type="array">
+      <obj_property name="ElementShortName">wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/\gen_vgpr_blk[0].u_reg_vgpr /wstrb" type="array">
+      <obj_property name="ElementShortName">wstrb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">wstrb[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/\gen_vgpr_blk[0].u_reg_vgpr /wenable" type="logic">
+      <obj_property name="ElementShortName">wenable</obj_property>
+      <obj_property name="ObjectShortName">wenable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/vdst_wb" type="array">
+      <obj_property name="ElementShortName">vdst_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vdst_wb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_simd32/simd32/u_simd32_ex2/u_execute_vector/vdst_wb_local" type="array">
+      <obj_property name="ElementShortName">vdst_wb_local[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vdst_wb_local[31:0]</obj_property>
+   </wvobject>
+</wave_config>
